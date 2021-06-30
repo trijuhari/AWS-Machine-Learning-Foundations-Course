@@ -1,1 +1,9 @@
+title: AWS-Machine-Learning-Course
+description: Tri Juhari projects and modules for AWS Machine Learning Scholarship Program.
+tagline: Tri Juhari projects and modules for AWS Machine Learning Scholarship Program.
+author: Tri Juhari
+show_downloads: false
 theme: jekyll-theme-cayman
+plugins:
+  - jemoji
+  - jekyll-seo-tag
