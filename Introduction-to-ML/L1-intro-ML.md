@@ -201,20 +201,22 @@ Look at the following two graphs. In the first graph, some data seems to have cl
 ![image](image/8.png).
 > **Reason:**
 Because A supervised learning problem uses labeled data, and an unsupervised learning problem uses unlabeled data.
----
+
 ![image](image/9.png).
 > **Reason:**
  Because models are made specific by the data required to train them, the quality of the data is very important to the overall success of your project.
----
- ![image](image/10.png).
+
+![image](image/10.png).
 >**Reason:**
  Because Models are based on statistical assumptions and for them to work correctly, you often need to format your data in specific ways.
----
- ![image](image/11.png).
+
+![image](image/11.png).
 >**Reason:**
  Tools from the statistics can also be used to check for outliers.
----
- ![image](image/12.png).
+
+
+
+![image](image/12.png).
 >**Reason:**
 You should periodically review the data coming into the model. When reviewing, you should check for the same things when you built your dataset.
 ---
