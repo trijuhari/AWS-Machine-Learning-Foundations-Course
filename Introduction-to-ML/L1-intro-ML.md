@@ -177,7 +177,7 @@ The quality of your data  will ultimately be the largest factor that affect  how
 * outlier 
 * missing or incomplete value
 * data that needs  to be transformed or preprocessed so it's  in the correct format  to be used by your model.
-&nbsp;
+
 #### 3. Summary Statistics
 
 Models can assume how your data is structured.  
