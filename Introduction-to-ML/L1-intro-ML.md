@@ -26,7 +26,7 @@ There is no labels in sample  from dataset.  this techniques work  with trying l
 ####  Reinforcement Learning
 The algorithm figures out which actions to take in a situation to maximize a reward (in the form of a number) on the way to reaching a specific goal. This is a completely different approach than supervised and unsupervised learning. 
 
- ### Traditional Programming VS ML
+### Traditional Programming VS ML
 
 &nbsp;
 
@@ -44,7 +44,7 @@ In a way ML  automate  some of stats  reasoning  and pattern machine  the proble
 
 So  model created by a model training algorithm to generate predictions or find patterns in data that can be used to solve a problem.
 
- ### Terminology 
+### Terminology 
 &nbsp;
 
 ![image](https://video.udacity-data.com/topher/2021/May/60a294e0_ml/ml.png)
@@ -62,7 +62,7 @@ ML  involve three components :
 * Model training algorithm
 * Model inference  algorithm
 
- ### Terminology
+### Terminology
 
 *  A **model** is an extremely generic program, made specific by the data used to train it.
 
@@ -83,7 +83,7 @@ ML  involve three components :
 
 ## Define Problem in Machine Learning 
 
- ### How do You Start a Machine Learning Task?
+### How do You Start a Machine Learning Task?
 
 #### Define a very specific task
 
@@ -144,7 +144,7 @@ In the snow cone sales example, we are trying to predict the number* of snow con
 
 
 
- ### Terminology
+### Terminology
 * **Clustering**. Unsupervised learning task that helps to determine if there are any naturally occurring groupings in the data.
 
 * A **categorical label** has a discrete set of possible values, such as "is a cat" and "is not a cat."
@@ -153,7 +153,7 @@ In the snow cone sales example, we are trying to predict the number* of snow con
 * **Discrete**: A term taken from statistics referring to an outcome taking on only a finite number of values (such as days of the week).
 * A **label** refers to data that already contains the solution.
 Using unlabeled data means you don't need to provide the model with any kind of label or solution while the model is being trained.
- ### Quiz
+### Quiz
 ![image](image/4.png)
 ![image](image/5.png)
 ![image](image/6.png)
@@ -166,19 +166,19 @@ Machine learning practitioners spend 80% of their time working with their data.
 
 ![image](https://video.udacity-data.com/topher/2021/April/608c4dfa_datasteps/datasteps.png)
 
- #### 1. Data Collection
+#### 1. Data Collection
 
 In this process   can be straightforward  as running appropriate SQL quaries  or as complicated  as building  custom web scrapper  application to collect  data for your project.You might even have to run a model over your data to generate needed labels. Here is the fundamental question:
 
  *Does the data you've collected match the machine learning task and problem you have defined?*
 
- #### 2. Data Inspection
+#### 2. Data Inspection
 The quality of your data  will ultimately be the largest factor that affect  how well you can  expert  your   model to perform. As u inspect your data  look for:
 * outlier 
 * missing or incomplete value
 * data that needs  to be transformed or preprocessed so it's  in the correct format  to be used by your model.
 &nbsp;
- #### 3. Summary Statistics
+#### 3. Summary Statistics
 
 Models can assume how your data is structured.  
 
@@ -187,13 +187,13 @@ Now that you have some data in hand it is a good best practice to check that you
 With many statistical tools, you can calculate things like the mean, inner-quartile range (IQR), and standard deviation. These tools can give you insight into the scope, scale, and shape of the dataset.
 &nbsp;
 
- #### 4. Data Visualization 
+#### 4. Data Visualization 
 
 you can use dataviz  to see outliers  and trend your data and help the stakeholders understnd ur data.
 Look at the following two graphs. In the first graph, some data seems to have clustered into different groups. In the second graph, some data points might be outliers.
 ![image](image/7.png).
 
- ### Terminology
+### Terminology
 * **Impute** is a common term referring to different statistical tools which can be used to calculate missing values from your dataset.
 * **Outliers** are data points that are significantly different from others in the same sample.
 
