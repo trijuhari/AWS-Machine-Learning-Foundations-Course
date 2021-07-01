@@ -1,5 +1,6 @@
 
-# :dart: [What is Machine Learning ?]()
+# Introduction to ML
+## What is Machine Learning ?
 
 Machine learning (ML) is a modern software development technique and a type of artificial intelligence (AI) that enables computers to solve problems by using examples of real-world data. It allows computers to automatically learn and improve from experience without being explicitly programmed to do so.
 
@@ -8,7 +9,7 @@ Machine learning (ML) is a modern software development technique and a type of a
 ---
 
 
-> ## Summary
+### Summary
 
 * Machine learning is part of the broader field of artificial intelligence. 
 
@@ -16,16 +17,16 @@ Machine learning (ML) is a modern software development technique and a type of a
 
 * Within machine learning there are several different kinds of tasks or techniques:
 
-* ####  Supervised Learning
+####  Supervised Learning
   Every training sample from the dataset has a corresponding **label** or output value associated with it.
 
-* #####  Unsupervised Learning
-    There is no labels in sample  from dataset.  this techniques work  with trying learn the underlying patterns or distributions that govern the data
+####  Unsupervised Learning
+There is no labels in sample  from dataset.  this techniques work  with trying learn the underlying patterns or distributions that govern the data
 
-* #####  Reinforcement Learning
-  The algorithm figures out which actions to take in a situation to maximize a reward (in the form of a number) on the way to reaching a specific goal. This is a completely different approach than supervised and unsupervised learning. 
+####  Reinforcement Learning
+The algorithm figures out which actions to take in a situation to maximize a reward (in the form of a number) on the way to reaching a specific goal. This is a completely different approach than supervised and unsupervised learning. 
 
-> ### Traditional Programming VS ML
+ ### Traditional Programming VS ML
 
 &nbsp;
 
@@ -43,7 +44,7 @@ In a way ML  automate  some of stats  reasoning  and pattern machine  the proble
 
 So  model created by a model training algorithm to generate predictions or find patterns in data that can be used to solve a problem.
 
-> ### Terminology 
+ ### Terminology 
 &nbsp;
 
 ![image](https://video.udacity-data.com/topher/2021/May/60a294e0_ml/ml.png)
@@ -53,7 +54,7 @@ ML is intersection  of statistics , applied,and CS
 ---
 
 
-### :dart: [Component Machine Learning ?]()
+## Component Machine Learning 
 ![image](https://video.udacity-data.com/topher/2021/April/608c4d95_clay99/clay99.png)
 
 ML  involve three components :
@@ -61,7 +62,7 @@ ML  involve three components :
 * Model training algorithm
 * Model inference  algorithm
 
-> ### Terminology
+ ### Terminology
 
 *  A **model** is an extremely generic program, made specific by the data used to train it.
 
@@ -72,7 +73,7 @@ ML  involve three components :
 
 ---
 
-### :dart: [Step in Machine Learning ]()
+## Step in Machine Learning 
 &nbsp;
 ![image](
     https://video.udacity-data.com/topher/2021/April/608c4397_steps/steps.png
@@ -80,12 +81,11 @@ ML  involve three components :
 
 ---
 
-### :dart: [Define Problem in Machine Learning ]()
+## Define Problem in Machine Learning 
 
-&nbsp;
-> #### How do You Start a Machine Learning Task?
+ ### How do You Start a Machine Learning Task?
 
->* ##### Define a very specific task
+#### Define a very specific task
 
 
 Think back to the snow cone sales example. Now imagine that you own a frozen treats store and you sell snow cones along with many other products. You wonder, 
@@ -98,12 +98,12 @@ It's a valid question, but it's the opposite of a very specific task. The follow
 &nbsp;
 * *“Does adding a $0.50 charge for organic flavors in your snow cone increase the sales of snow cones?”*
 
->* ##### Identify ML task we might use to  solve this problem
+#### Identify ML task we might use to  solve this problem
 
 This helps you better understand the data you need for a project.
 
 &nbsp;
->#### Whats ML Task ?
+### Whats ML Task ?
 
 All model training algorithms, and the models themselves, take data as their input. Their outputs can be very different and are classified into a few different groups based on the task they are designed to solve. Often, we use the kind of data required to train a model as part of defining a machine learning task.
 
@@ -112,21 +112,21 @@ In this lesson, we will focus on two common machine learning tasks:
 * Supervised learning
 * Unsupervised learning
 
-##### Supervised and Unsupervised Learning
+#### Supervised and Unsupervised Learning
 
 ![image](https://video.udacity-data.com/topher/2021/April/608c4422_mltask/mltask.png)
 
 &nbsp;
 *  **Supervised task** = The data having labels
 
- > For example: Predicting the number of snow cones sold based on the temperatures is an example of supervised learning.
+  For example: Predicting the number of snow cones sold based on the temperatures is an example of supervised learning.
 
  * **Unsupervised task** = The data didnt having labels
 
 &nbsp;
-##### How do we classify tasks when we don't have a label?
+### How do we classify tasks when we don't have a label?
 
-> Unsupervised learning involves using data that doesn't have a label. One common task is called **clustering**. **Clustering** helps to determine if there are any naturally occurring groupings in the data.
+ Unsupervised learning involves using data that doesn't have a label. One common task is called **clustering**. **Clustering** helps to determine if there are any naturally occurring groupings in the data.
 
 ![image](https://video.udacity-data.com/topher/2021/April/608c44b0_snsupersuper/snsupersuper.png)
 
@@ -144,7 +144,7 @@ In the snow cone sales example, we are trying to predict the number* of snow con
 
 
 
-> ### Terminology
+ ### Terminology
 * **Clustering**. Unsupervised learning task that helps to determine if there are any naturally occurring groupings in the data.
 
 * A **categorical label** has a discrete set of possible values, such as "is a cat" and "is not a cat."
@@ -153,32 +153,32 @@ In the snow cone sales example, we are trying to predict the number* of snow con
 * **Discrete**: A term taken from statistics referring to an outcome taking on only a finite number of values (such as days of the week).
 * A **label** refers to data that already contains the solution.
 Using unlabeled data means you don't need to provide the model with any kind of label or solution while the model is being trained.
-> ### Quiz
+ ### Quiz
 ![image](image/4.png)
 ![image](image/5.png)
 ![image](image/6.png)
 
 ---
 
-### :dart: [Build Datasets]()
+## Build Datasets
 Build dataset can be  used to solve ML  based problem.Understanding data can help  select better  model and algorithm  so you can build  more effective  solution.
 Machine learning practitioners spend 80% of their time working with their data.
 
 ![image](https://video.udacity-data.com/topher/2021/April/608c4dfa_datasteps/datasteps.png)
 
-> #### Data Collection
+ #### 1. Data Collection
 
 In this process   can be straightforward  as running appropriate SQL quaries  or as complicated  as building  custom web scrapper  application to collect  data for your project.You might even have to run a model over your data to generate needed labels. Here is the fundamental question:
 
-> *Does the data you've collected match the machine learning task and problem you have defined?*
+ *Does the data you've collected match the machine learning task and problem you have defined?*
 
-> #### Data Inspection
+ #### 2. Data Inspection
 The quality of your data  will ultimately be the largest factor that affect  how well you can  expert  your   model to perform. As u inspect your data  look for:
 * outlier 
 * missing or incomplete value
 * data that needs  to be transformed or preprocessed so it's  in the correct format  to be used by your model.
 &nbsp;
-> #### Summary Statistics
+ #### 3. Summary Statistics
 
 Models can assume how your data is structured.  
 
@@ -187,34 +187,34 @@ Now that you have some data in hand it is a good best practice to check that you
 With many statistical tools, you can calculate things like the mean, inner-quartile range (IQR), and standard deviation. These tools can give you insight into the scope, scale, and shape of the dataset.
 &nbsp;
 
-> #### Data Visualization 
+ #### 4. Data Visualization 
 
 you can use dataviz  to see outliers  and trend your data and help the stakeholders understnd ur data.
 Look at the following two graphs. In the first graph, some data seems to have clustered into different groups. In the second graph, some data points might be outliers.
 ![image](image/7.png).
 
-> ### Terminology
+ ### Terminology
 * **Impute** is a common term referring to different statistical tools which can be used to calculate missing values from your dataset.
 * **Outliers** are data points that are significantly different from others in the same sample.
 
->### Quiz
+### Quiz
 ![image](image/8.png).
- > **Reason:**
+> **Reason:**
 Because A supervised learning problem uses labeled data, and an unsupervised learning problem uses unlabeled data.
 ---
 ![image](image/9.png).
- > **Reason:**
+> **Reason:**
  Because models are made specific by the data required to train them, the quality of the data is very important to the overall success of your project.
 ---
  ![image](image/10.png).
- > **Reason:**
+>**Reason:**
  Because Models are based on statistical assumptions and for them to work correctly, you often need to format your data in specific ways.
 ---
  ![image](image/11.png).
- > **Reason:**
+>**Reason:**
  Tools from the statistics can also be used to check for outliers.
 ---
  ![image](image/12.png).
- > **Reason:**
+>**Reason:**
 You should periodically review the data coming into the model. When reviewing, you should check for the same things when you built your dataset.
 ---
