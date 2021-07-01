@@ -1,5 +1,5 @@
 
-### :dart: [What is Machine Learning ?]()
+# :dart: [What is Machine Learning ?]()
 
 Machine learning (ML) is a modern software development technique and a type of artificial intelligence (AI) that enables computers to solve problems by using examples of real-world data. It allows computers to automatically learn and improve from experience without being explicitly programmed to do so.
 
@@ -8,7 +8,7 @@ Machine learning (ML) is a modern software development technique and a type of a
 ---
 
 
-> ### Summary
+> ## Summary
 
 * Machine learning is part of the broader field of artificial intelligence. 
 
@@ -16,7 +16,7 @@ Machine learning (ML) is a modern software development technique and a type of a
 
 * Within machine learning there are several different kinds of tasks or techniques:
 
-* #####  Supervised Learning
+* ####  Supervised Learning
   Every training sample from the dataset has a corresponding **label** or output value associated with it.
 
 * #####  Unsupervised Learning
