@@ -1,5 +1,3 @@
-# AWS Machine Learning Foundations Course
-
 
 ### :dart: [Introduction to Machine Learning](L1-intro-ML.md)
 
